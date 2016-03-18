@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context=".DeviceControlActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="TataSky"
+        android:id="@+id/textViewTataSky"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Power"
+        android:id="@+id/power"
+        android:onClick="onClickWritePower"
+        android:layout_weight="0.10" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:layout_gravity="center_horizontal">
+
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="CH+"
+            android:id="@+id/chu"
+            android:onClick="onClickWriteChU"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Guide"
+            android:id="@+id/guide"
+            android:onClick="onClickWriteGuide"
+            android:layout_row="0"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="VOL+"
+            android:id="@+id/volu"
+            android:onClick="onClickWriteVolU"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="CH-"
+            android:id="@+id/chl"
+            android:onClick="onClickWriteChL"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:id="@+id/back"
+            android:onClick="onClickWriteBack"
+            android:layout_row="1"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="VOL-"
+            android:id="@+id/voll"
+            android:onClick="onClickWriteVolL"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="UP"
+            android:id="@+id/up"
+            android:onClick="onClickWriteUp"
+            android:layout_row="2"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Left"
+            android:id="@+id/left"
+            android:onClick="onClickWriteLeft"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:id="@+id/select"
+            android:onClick="onClickWriteSelect"
+            android:layout_row="3"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Right"
+            android:id="@+id/right"
+            android:onClick="onClickWriteRight"
+            android:layout_row="3"
+            android:layout_column="2"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="DOWN"
+            android:id="@+id/down"
+            android:onClick="onClickWriteDown"
+            android:layout_row="4"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/one"
+            android:onClick="onClickWrite1"
+            android:layout_row="5"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:id="@+id/two"
+            android:onClick="onClickWrite2"
+            android:layout_row="5"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/three"
+            android:onClick="onClickWrite3"
+            android:layout_row="5"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:id="@+id/four"
+            android:onClick="onClickWrite4"
+            android:layout_row="6"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="5"
+            android:id="@+id/five"
+            android:onClick="onClickWrite5"
+            android:layout_row="6"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="6"
+            android:id="@+id/six"
+            android:onClick="onClickWrite6"
+            android:layout_row="6"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="7"
+            android:id="@+id/seven"
+            android:onClick="onClickWrite7"
+            android:layout_row="7"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:id="@+id/eight"
+            android:onClick="onClickWrite8"
+            android:layout_row="7"
+            android:layout_column="1" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="9"
+            android:id="@+id/nine"
+            android:onClick="onClickWrite9"
+            android:layout_row="7"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:id="@+id/zero"
+            android:onClick="onClickWrite0"
+            android:layout_row="8"
+            android:layout_column="1" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SonyTV"
+        android:id="@+id/textViewSonyTV"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Power"
+        android:id="@+id/sonypower"
+        android:onClick="onClickWriteSonyPower"
+        android:layout_weight="0.37" />
+
+    <GridLayout
+        android:layout_width="371dp"
+        android:layout_height="323dp"
+        android:layout_gravity="center_horizontal">
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="Mode"
+            android:id="@+id/mode"
+            android:onClick="onClickWriteSonyMode"
+            android:layout_row="0"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="Return"
+            android:id="@+id/sonyreturn"
+            android:onClick="onClickWriteSonyReturn"
+            android:layout_row="0"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="Up"
+            android:id="@+id/sonyup"
+            android:onClick="onClickWriteSonyUp"
+            android:layout_row="1"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="VOL+"
+            android:id="@+id/sonyvolu"
+            android:onClick="onClickWriteSonyVolU"
+            android:layout_row="1"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="Select"
+            android:id="@+id/sonyselect"
+            android:onClick="onClickWriteSonySelect"
+            android:layout_row="2"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="Vol-"
+            android:id="@+id/sonyvoll"
+            android:onClick="onClickWriteSonyVolL"
+            android:layout_row="2"
+            android:layout_column="2" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="Down"
+            android:id="@+id/sonydown"
+            android:onClick="onClickWriteSonyDown"
+            android:layout_row="3"
+            android:layout_column="0" />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="75dp"
+            android:text="Mute"
+            android:id="@+id/sonymute"
+            android:onClick="onClickWriteSonyMute"
+            android:layout_row="3"
+            android:layout_column="2" />
+
+    </GridLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="LGDVD"
+        android:id="@+id/textViewLGDVD"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Power"
+        android:id="@+id/lgpower"
+        android:onClick="onClickWriteLGPower"
+        android:layout_weight="0.20" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open/Close"
+        android:id="@+id/lgop"
+        android:onClick="onClickWriteLGOP"
+        android:layout_weight="0.20" />
+
+</LinearLayout>
+</ScrollView>
